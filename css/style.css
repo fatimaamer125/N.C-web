@@ -1,0 +1,108 @@
+body {
+	direction: ltr;
+}
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#li {
+    float: left;
+}
+
+#li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#li a:hover {
+    background-color: #111;
+}
+h1 {
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Georgia', serif;
+	text-decoration: underline;
+}
+#p1 {
+	font-weight: initial;
+	font-size: 18px;
+	font-family: 'Georgia', serif;
+	text-align: justify;
+}
+#img {
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+
+/** footer style **/
+footer {
+    text-align: center;
+    background-color: #111 ;
+    color:#ffffff;
+    padding:40px 18px 40px 40px;
+
+}
+#p{
+   text-align: center;
+}
+.box{
+	border: 1px solid gray;
+    border-radius: 4px;
+    text-align: justify;
+    padding: 15px 15px 15px 15px;
+
+}
+.boxs{
+	border: 1px solid gray;
+    border-radius: 4px;
+    text-align: justify;
+    padding: 16px 16px 16px 16px;
+    box-shadow: 10px 10px #f0f5f5;
+}
+#h3{
+	padding-top: 10px;
+	font-family: 'Georgia', serif;
+	box-shadow: 5px 5px #f0f5f5;
+}
+.vertical-menu {
+    width: 200px;
+    height: 290px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #f2f2f2;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #f2f2f2;
+}
+
+.vertical-menu a.active {
+    background-color: #f2f2f2;
+    color: black;
+}
+#one-1 {
+    width: 60px;
+    height: 60px;
+    padding:2px 0px -7px 5px;
+
+}
+#p-2 {
+	font-size:25px;
+	font-family: 'Georgia', serif;
+}
